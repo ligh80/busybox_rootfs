@@ -1,0 +1,8 @@
+#etc/inittab
+#<id>:<runlevels>:<action>:<process>
+::sysinit:/etc/init.d/rcS
+console::askfirst:-/bin/sh
+::restart:/sbin/init
+::ctrlaltdel:/sbin/reboot
+::shutdown:/bin/umount -a -t
+::shutdown:/sbin/swapoff -a
