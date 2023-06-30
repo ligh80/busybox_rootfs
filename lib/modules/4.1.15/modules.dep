@@ -1,3 +1,6 @@
-newchrled.ko:
+beep.ko:
+dtsof.ko:
 chrdevbase.ko:
+dtsled.ko:
 led.ko:
+gpioled.ko:
