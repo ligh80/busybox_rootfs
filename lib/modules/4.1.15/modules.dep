@@ -1,5 +1,10 @@
+atomic.ko:
+mutex.ko:
 beep.ko:
 dtsof.ko:
+spinlock.ko:
+semaphore.ko:
+key.ko:
 chrdevbase.ko:
 dtsled.ko:
 led.ko:
