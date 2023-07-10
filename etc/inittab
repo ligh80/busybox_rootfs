@@ -2,6 +2,7 @@
 #<id>:<runlevels>:<action>:<process>
 ::sysinit:/etc/init.d/rcS
 console::askfirst:-/bin/sh
+tty1::askfirst:-/bin/sh
 ::restart:/sbin/init
 ::ctrlaltdel:/sbin/reboot
 ::shutdown:/bin/umount -a -t
