@@ -1,0 +1,4 @@
+alias of:N*T*Cedt,edt-ft5206* edt_ft5x06
+alias of:N*T*Cedt,edt-ft5306* edt_ft5x06
+alias of:N*T*Cedt,edt-ft5406* edt_ft5x06
+alias i2c:edt-ft5x06 edt_ft5x06
