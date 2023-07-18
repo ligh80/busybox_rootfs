@@ -1,0 +1,5 @@
+usb_f_mass_storage.ko: libcomposite.ko
+libcomposite.ko:
+g_mass_storage.ko: usb_f_mass_storage.ko libcomposite.ko
+ramdisk.ko:
+ramdisknorequest.ko:
